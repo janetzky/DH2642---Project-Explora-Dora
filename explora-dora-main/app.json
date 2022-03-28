@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "ExploraDora",
+    "slug": "ExploraDora",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/map.png",
+    "splash": {
+      "image": "./assets/map.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.expo.client.exploradora.app"
+    },
+    "android": {
+      "package": "webraccoon.ninja",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
